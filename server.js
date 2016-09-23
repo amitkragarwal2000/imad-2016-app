@@ -86,9 +86,9 @@ app.get('/', function (req, res) {
 });
 
 
-app.get('/:articleName', function (req, res) {
+app.get('/:articleIMAD', function (req, res) {
 
-var articleName = req.params.articleName;
+var articleName = req.params.articleIMAD;
   res.send(createTemplate(articles[articleName]));
 });
 
