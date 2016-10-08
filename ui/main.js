@@ -22,6 +22,7 @@ if (request.readyState === XMLHttpRequest.DONE) {
 
 };
     
-    
+   request.open('GET', 'http://amitkragarwal2000.imad.hasura-app.io/counter', true);
+request.send(null); 
     
 };
